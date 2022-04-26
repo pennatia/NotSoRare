@@ -1,2 +1,2 @@
-# notsorare
+# NotSoRare Project
 NSR Project
