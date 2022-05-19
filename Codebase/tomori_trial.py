@@ -3,7 +3,7 @@ import requests
 import json
 import pandas as pd
 
-token = "your_token_here"
+token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjZTFhM2U3MS0wOWJlLTRlZWMtYjU2MC1lZGUwOGVlNmY5ZTMiLCJzY3AiOiJ1c2VyIiwiYXVkIjoiYXBwIiwiaWF0IjoxNjUxMDc4NTU3LCJleHAiOiIxNjgyNjM1NTA5IiwianRpIjoiZjBlNWE1NWEtNjkxYi00ODQwLTgzOGUtMjAyOTQ2YWNjMDJiIn0._v_uv3MB4rxasORoJge7NJ8tlBWqXGLwuT9y-941nOg"
 headers = {"content-type" : "application/json", "Authorization" : token, "JWT-AUD": 'Cost Analysis'}
 
 def run_query(query): # A simple function to use requests.post to make the API call. Note the json= section.
@@ -22,6 +22,7 @@ query{
       nodes{
         name
         assetId
+        canBuy
         slug
         rarity
         serialNumber
