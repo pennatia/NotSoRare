@@ -16,7 +16,7 @@ def player_search(
     api_key : str = None
     ):
 
-    url = "https://api-football-v1.p.rapidapi.com/v2/players/search/{last_name}"
+    url = f"https://api-football-v1.p.rapidapi.com/v2/players/search/{last_name}"
     headers = {
         'x-rapidapi-host': "api-football-v1.p.rapidapi.com",
         'x-rapidapi-key': key
