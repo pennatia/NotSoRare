@@ -1,5 +1,5 @@
 # NotSoRare Project
-![Banner](readme_assets/header.jpg)
+![Banner](docs/readme_assets/header.jpg)
 
 
 ## Mission Statement

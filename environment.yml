@@ -1,0 +1,20 @@
+name: nsr
+
+dependencies:
+  - python >= 3.7
+  - pip
+  - setuptools_scm
+  - toml
+
+  # Package Dependencies
+  - numpy
+  - pandas
+  - requests
+  - scikit-learn < 1.1.0
+
+  # Misc
+  - black
+  - jupyterlab
+  - pre-commit
+  - snakeviz
+  

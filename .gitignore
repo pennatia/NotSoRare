@@ -1,0 +1,9 @@
+# Folders
+.idea
+.ipynb_checkpoints
+.mypy_cache
+.vscode
+
+# File Formats
+.json
+.xlsx
