@@ -8,7 +8,7 @@ import requests
 
 
 
-key = '7e09245ac8mshf3d314f186c5081p1031b8jsn87ef9651678f'
+key = 'Your token Here'
 last_name = 'tonali'
 
 def player_search(
